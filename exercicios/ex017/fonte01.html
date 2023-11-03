@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in ,px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw,vh, %
+            16px geralmente = 1em, o dobro de 16px.
+
+            Recomendação oficial
+            px & em
+            */ 
+            font-size: 16px;
+        }
+
+        h1 {
+            /*Shorthand font
+            - font-style -> font-weight -> font-size -> font-family    essa é a ordem
+                                                                                  
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;     expessura 
+            font-size: 3em;          tamanho
+            font-style>: italic;     estilo da letra
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur pariatur sunt ex tempore iusto sed, totam aspernatur libero alias placeat suscipit animi impedit laborum reprehenderit vel adipisci ab omnis? Architecto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid accusamus ad molestiae qui commodi sit voluptatibus, nostrum iusto fuga molestias magni eveniet? Placeat illo expedita consequatur, ratione nostrum similique cumque?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit qui ut est consequatur neque excepturi animi asperiores laboriosam distinctio, hic nam ad assumenda ipsum voluptas odit modi! Odio, pariatur vitae.</p>
+    <h2>Substítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium asperiores aliquid molestiae aperiam, itaque veritatis illum. Quaerat corrupti libero necessitatibus accusantium voluptates cum, tenetur corporis eius commodi, perspiciatis itaque quam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae neque asperiores soluta voluptatum obcaecati, eos laborum ad, recusandae deserunt laudantium nesciunt nihil. Obcaecati sequi consequatur distinctio cumque repellat sint sit!</p>
+</body>
+</html>
