@@ -10,15 +10,21 @@
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: top center;
-            background-repeat: repeat-y;
-            background-size: contain;
-            
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+
+            /* Shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') top center no-repeat cover fixed; 
         }
 
         main {
             
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
